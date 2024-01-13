@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Bandi Prajwal Chandra</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Bandi Prajwal Chandra</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705062266/Untitled_design_ihqxfh.png" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title animate-charcter">Bandi Prajwal Chandra</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="location.href='https://drive.google.com/file/d/1467ioP4Bm1Zoml8eMkDw-jW4cloyVA_B/view?usp=drive_link'">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060480/m5nhbehbveidqw1yceqe.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/prajwal-chandra-bandi-b65427204/'" />
+                <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060480/uxyddjbahnmyfgiwbcox.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Prajwal122003'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705107425/Untitled_design_1_zj3vly.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/spr6f8ucynhz5wksgc8h.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>4+ years <br />Full Stack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/esyl0icvf3nyh90k24f7.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Tech. 2020-2024<br />Department of CSM(AI&ML)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm a skilled software engineer with 3 years of experience in
+                        crafting user-friendly and scalable web applications.
+                        My expertise lies in JavaScript, React, and Node.js, and
+                        I have a passion for creating intuitive and engaging user experiences.
+                        I'm experienced in Agile methodologies and enjoy working in collaborative environments.
+                        In my previous role, I led the development of a web app
+                        that achieved a 40% increase in user engagement. I'm always looking for opportunities to push my boundaries
+                        and create innovative solutions that make a real impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/mfcrbhcukjrdyg3pefh8.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience" class="m-5">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Tailwind CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>ReactJs</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Sqlite3</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages & Other...</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Linux</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DevOps</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git & Github</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Machine Learning & Deep Learnig</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/fixwuliqk0bpevuchdfi.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Artifical Intelligence (Prolog)</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/mfcrbhcukjrdyg3pefh8.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="follow" class="explore-menu pt-5 pb-5 m-5">
+        <p class="section__text__p1">My Gallery</p>
+        <h1 class="title">Photos </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705115305/IMG_20231207_130530_r5dvfa.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705115369/IMG_20230825_172622_dtdfae.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118486/Y19jcm9wLGFyXzE6MQ_wje6hg.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118410/IMG-20220704-WA0006_f0irhc.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705116347/Screenshot_605_gphflx.png" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118638/Y19jcm9wLGFyXzE2Ojk_e24cac.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118350/IMG-20230318-WA0006_gi68de.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118337/IMG-20230318-WA0003_jacaht.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705118325/IMG-20230319-WA0012_zpmmvu.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705116682/IMG_20221106_095835728_MFNR_slldpz.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705116457/IMG_20230527_120728_egj1c1.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705116600/IMG_20221126_175045066_MFNR_wnxn7u.jpg" class="menu-img w-100" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="m-5">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <p class="section__text__p1">Wikipedia Search Application</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://wikipedia.ccbp.tech/'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 2</h2>
+                    <p class="section__text__p1">Student Activity Center Jbrec</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://jbrec.ccbp.tech/'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 3</h2>
+                    <p class="section__text__p1">Food Much</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='prajwalproject.ccbp.tech'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 4</h2>
+                    <p class="section__text__p1">Sriyam Consultants</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sriyamconsultants.com/'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 5</h2>
+                    <p class="section__text__p1">Jbiet Sports Event</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://jbiet.ccbp.tech/'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Project 6</h2>
+                    <p class="section__text__p1">GSP</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gsptech.ccbp.tech/'">
+                            Live Website
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/mfcrbhcukjrdyg3pefh8.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060479/rjbcjkbswj7hxgkochcb.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com">bandiprajwalchandra@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://res.cloudinary.com/ib-hubs-ccbp-professional/image/upload/v1705060480/m5nhbehbveidqw1yceqe.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/prajwal-chandra-bandi-b65427204/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Bandi Prajwal Chandra. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
